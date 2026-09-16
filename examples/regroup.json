@@ -1,0 +1,10 @@
+{
+  "boot_s": 10,
+  "sla_s": 60,
+  "check_costs_s": { "x": 20, "y": 10, "z": 10 },
+  "jobs": [
+    { "job_id": "A", "repo": "demo", "arrived_at_s": 0, "checks": ["x"] },
+    { "job_id": "B", "repo": "demo", "arrived_at_s": 0, "checks": ["y"] },
+    { "job_id": "C", "repo": "demo", "arrived_at_s": 20, "checks": ["y", "z"] }
+  ]
+}

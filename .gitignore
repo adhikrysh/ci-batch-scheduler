@@ -1,0 +1,8 @@
+/target/
+/schedule.json
+# External evaluation inputs belong outside this repository.
+/workload.json
+/evaluate.py
+/evaluator.py
+/BRIEF.md
+/.DS_Store
